@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@qunhe/tools-ui": "^0.5.188",
-    "@qunhe/tools-ui-icons": "^0.1.23",
-    "@qunhe/tools-ui-icons-yundesign": "^0.1.8",
+    "@qunhe/muya-ui": "^0.4.92",
+    "@qunhe/tools-ui": "0.5.196",
+    "@qunhe/tools-ui-pro": "0.1.105",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -15,12 +15,13 @@
     "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
     "vconsole": "^3.9.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "craco start",
-    "build": "react-scripts build",
+    "build": "craco build",
     "analyz": "cross-env NODE_ENV=production npm_config_report=true craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^6.3.0",
+    "@qunhe/muya-import": "^0.1.6",
     "awesome-typescript-loader": "^5.2.1",
     "babel-plugin-import": "^1.13.3",
     "cross-env": "^7.0.3",

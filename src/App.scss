@@ -1,0 +1,60 @@
+.test {
+    display: block;
+}
+.root-container {
+    height: 500px;
+    position: relative;
+    font-size: 14px;
+    overflow: hidden;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.left-container {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    height: 380px;
+    &__introduce {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        width: 200px;
+    }
+}
+
+.right-container {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    height: 380px;
+    &__introduce {
+        position: absolute;
+        top: 30px;
+        right: 5px;
+        width: 200px;
+    }
+}
+
+.resizable-container {
+    border: 1px dashed #f60;
+    overflow: hidden;
+}
+
+.customize-title {
+    background-color: #ffddd6;
+}
+
+.customize-content {
+    background-color: #e3effe;
+}
+
+.demo-dock-operate-title {
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+}
+
+.demo-dock__full-color {
+    background-color: mistyrose;
+}
